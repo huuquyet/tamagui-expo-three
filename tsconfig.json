@@ -1,0 +1,14 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": ["./app/*"],
+      "assets/*": ["./assets/*"],
+      "three": ["./node_modules/three"],
+      "three/*": ["./node_modules/three/*"]
+    },
+    "typeRoots": ["node_modules/@types"],
+    "types": ["three"]
+  }
+}
