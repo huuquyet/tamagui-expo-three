@@ -15,7 +15,7 @@ import { useSceneStats } from '@/components/StatsPanel'
 import { type ExpoWebGLRenderingContext, GLView } from 'expo-gl'
 import { Renderer, THREE } from 'expo-three'
 import OrbitControlsView from 'expo-three-orbit-controls'
-import React, { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { View } from 'react-native'
 
 export default function ThreeScene() {

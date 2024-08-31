@@ -11,6 +11,6 @@
     "typeRoots": ["node_modules/@types"],
     "types": ["three"]
   },
-  "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"],
+  "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
