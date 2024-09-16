@@ -16,6 +16,8 @@
   },
   "dependencies": {
     "@expo-google-fonts/inter": "^0.2.3",
+    "@react-three/drei": "^9.111.5",
+    "@react-three/fiber": "^8.17.6",
     "@tamagui/config": "latest",
     "@tamagui/constants": "latest",
     "@tamagui/lucide-icons": "latest",
@@ -34,6 +36,7 @@
     "expo-three": "^8.0.0",
     "expo-three-orbit-controls": "^2.0.0",
     "jotai": "^2.9.3",
+    "leva": "^0.9.35",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.74.5",
@@ -43,7 +46,8 @@
     "react-native-svg": "15.2.0",
     "react-native-web": "~0.19.12",
     "tamagui": "latest",
-    "three": "^0.167.1"
+    "three": "^0.167.1",
+    "three-stdlib": "^2.32.2"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
